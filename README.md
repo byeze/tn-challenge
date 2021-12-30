@@ -18,13 +18,11 @@ This is a simple to-do list application.
 [Getting started](#getting-started) •
 [Tech Stack](#tech-stack) •
 [REST Endpoints](#rest-endpoints) •
-[Environment variables](#env) •
+[Environment variables](#environment-variables) •
 
 </div>
 
 ## Getting started
-
-![Tutorial][tutorial]
 
 ```sh
 # clone project
@@ -46,8 +44,6 @@ curl -X GET http://localhost:3000/health
 
 ## Tech stack
 
-![Tech stack][tech-stack]
-
 This microservice is powered by:
 
 - Nodejs 14.x
@@ -55,8 +51,6 @@ This microservice is powered by:
 - Typescript
 
 ## REST Endpoints
-
-![REST Endpoints][rest-endpoints]
 
 - `GET /health`: Health check
 - `GET /readiness`: Health check
@@ -70,8 +64,6 @@ This microservice is powered by:
   ```
 
 ## Environment variables
-
-![Environment variables][env]
 
 Environment variables can be used for configuration.
 
