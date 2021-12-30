@@ -26,8 +26,8 @@ This is a simple to-do list application.
 
 ```sh
 # clone project
-git clone https://github.com/byeze/truenorth-challenge.git
-cd truenorth-challenge
+git clone https://github.com/byeze/tn-challenge.git
+cd tn-challenge
 
 # install dependecines
 npm i
