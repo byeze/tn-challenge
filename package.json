@@ -8,7 +8,8 @@
     "dev:debug": "nodemon --config nodemon.json --inspect-brk src/index.ts",
     "start": "node dist/index.js",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "commit": "cz"
   },
   "keywords": [],
   "author": "",
@@ -38,9 +39,16 @@
     "@types/jest": "^27.0.3",
     "@types/sinon": "^10.0.6",
     "babel-jest": "^27.4.5",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.2.0",
     "dotenv": "^8.6.0",
     "sinon": "^12.0.1",
     "ts-jest": "^27.1.2",
     "ts-node": "^10.4.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
